@@ -20,7 +20,7 @@ Antes de comenzar, asegúrese de tener instalado lo siguiente en su máquina:
 
 Navegue hasta el archivo `appsettings.json`, dentro de `appsettings.Development.json` en el directorio raíz del proyecto. Modifique la cadena de conexión `DefaultConnection` en la sección `ConnectionStrings` para que apunte a su instancia de SQL Server:
 
-```json
+json
 "ConnectionStrings": {
   "DefaultConnection": "Server=nombre_de_instancia;Database=ScriptDB;User Id=usuario;Password=contraseña;"
 }
