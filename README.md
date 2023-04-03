@@ -1,24 +1,24 @@
 # WebApi-ChallengeTotal
 
-Bienvenido al repositorio de WebApi-ChallengeTota, una API RESTful construida con .NET Core. Esta API le permitirá interactuar con la base de datos ScriptDB.
+Bienvenido al repositorio de WebApi-ChallengeTotal, una API RESTful construida con .NET Core. Esta API le permitirá interactuar con la base de datos buttons_db.
 
 ## Requisitos previos
 
 Antes de comenzar, asegúrese de tener instalado lo siguiente en su máquina:
 
-1. [.NET Core SDK](https://dotnet.microsoft.com/download) (versión 3.1 o superior)
+1. [Visual Studio 2022]([https://dotnet.microsoft.com/download](https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false)) (versión 3.1 o superior)
 2. [SQL Server](https://www.microsoft.com/es-es/sql-server/sql-server-downloads) (Express, Developer o cualquier otra edición)
 
 ## Pasos para levantar la aplicación
 
 1. **Clonar el repositorio**
 
-   Abra una terminal y ejecute el siguiente comando para clonar el repositorio de WebApi-ChallengeTota: git clone https://github.com/GuidoLn/WebApi-ChallengeTotal.git
+   Abra una terminal y ejecute el siguiente comando para clonar el repositorio de WebApi-ChallengeTotal: git clone https://github.com/GuidoLn/WebApi-ChallengeTotal.git
    
   
 2. **Configurar la cadena de conexión a la base de datos**
 
-Navegue hasta el archivo `appsettings.json`, dentro de `appsettings.Development.json` en el directorio raíz del proyecto. Modifique la cadena de conexión `DefaultConnection` en la sección `ConnectionStrings` para que apunte a su instancia de SQL Server:
+Navegue hasta el archivo `appsettings.Development.json`, dentro de `appsettings.json` en el directorio raíz del proyecto. Modifique la cadena de conexión `DefaultConnection` en la sección `ConnectionStrings` para que apunte a su instancia de SQL Server:
 
 json
 "ConnectionStrings": {
@@ -48,5 +48,5 @@ Una vez que la aplicación esté en ejecución, puede acceder a la API a través
 
 Puede encontrar la documentación de la API y probar los diferentes endpoints utilizando Swagger. Navegue a https://localhost:"puerto"/swagger en su navegador web después de iniciar la aplicación.
 
-¡Felicitaciones! Ahora tiene la aplicación WebApi-ChallengeTota en ejecución y está listo para interactuar con la base de datos ScriptDB.
+¡Felicitaciones! Ahora tiene la aplicación WebApi-ChallengeTotal en ejecución y está listo para interactuar con la base de datos button_db.
 
