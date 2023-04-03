@@ -1,4 +1,4 @@
-# WebApi-ChallengeTota
+# WebApi-ChallengeTotal
 
 Bienvenido al repositorio de WebApi-ChallengeTota, una API RESTful construida con .NET Core. Esta API le permitirá interactuar con la base de datos ScriptDB.
 
